@@ -7171,7 +7171,7 @@ display_string_install_now_failed_body="Der ${display_string_workflow_title} kon
 # Dies wird sowohl für nicht-deadline als auch für deadline-Workflows verwendet.
 display_string_prepare_title="Neustart für ${display_string_workflow_title} erforderlich"
 display_string_prepare_default_body="Ein erforderliches Software-Update wird diesen Computer in etwa ${display_string_prepare_time_estimate} Minuten automatisch neu starten.\n\nWährend dieser Zeit können Sie den Computer weiter benutzen oder den Bildschirm sperren, aber bitte starten Sie den Computer nicht neu oder versetzen Sie ihn in den Ruhezustand, da dies den Update-Prozess verlängert."
-display_string_prepare_deadline_count_body="Sie haben die maximale Anzahl von ${display_string_deadline_count_maximum} Malen aufgeschoben.\n\nEin erforderliches Software-Update wird diesen Computer in etwa ${display_string_prepare_time_estimate} Minuten automatisch neu starten.\n\nWährend dieser Zeit können Sie den Computer weiter verwenden oder den Bildschirm sperren, aber bitte starten Sie den Computer nicht neu oder versetzen Sie ihn in den Ruhezustand, da dies den Update-Prozess verlängert."
+display_string_prepare_deadline_count_body="Sie haben die maximale Anzahl von ${display_string_deadline_count_maximum} mal aufgeschoben.\n\nEin erforderliches Software-Update wird diesen Computer in etwa ${display_string_prepare_time_estimate} Minuten automatisch neu starten.\n\nWährend dieser Zeit können Sie den Computer weiter verwenden oder den Bildschirm sperren, aber bitte starten Sie den Computer nicht neu oder versetzen Sie ihn in den Ruhezustand, da dies den Update-Prozess verlängert."
 display_string_prepare_deadline_days_body="Sie haben die maximale Anzahl von ${deadline_days_hard} Tagen aufgeschoben.\n\nEine erforderliche Softwareaktualisierung wird diesen Computer in etwa ${display_string_prepare_time_estimate} Minuten automatisch neu starten.\n\nWährend dieser Zeit können Sie den Computer weiter verwenden oder den Bildschirm sperren, aber bitte starten Sie den Computer nicht neu oder gehen Sie nicht in den Ruhezustand, da dies den Aktualisierungsprozess verlängert."
 display_string_prepare_deadline_date_body="Die Aufschiebungsfrist von ${display_string_deadline_date} ist verstrichen.\n\nEin erforderliches Software-Update wird diesen Computer in etwa ${display_string_prepare_time_estimate} Minuten automatisch neu starten.\n\nWährend dieser Zeit können Sie den Computer weiter verwenden oder den Bildschirm sperren, aber bitte starten Sie den Computer nicht neu oder versetzen Sie ihn in den Ruhezustand, da dies den Update-Prozess verlängert."
 
@@ -7180,7 +7180,7 @@ display_string_prepare_deadline_date_body="Die Aufschiebungsfrist von ${display_
 # Dies wird sowohl für nicht-deadline als auch für deadline-Workflows verwendet.
 display_string_restart_title="Neustart für ${display_string_workflow_title} erforderlich"
 display_string_restart_default_body="Dieser Computer wird in Kürze automatisch neu gestartet.\n\nSpeichern Sie jetzt alle geöffneten Dokumente."
-display_string_restart_deadline_count_body="Sie haben die maximale Anzahl von ${display_string_deadline_count_maximum} Malen verschoben.\n\nDieser Computer wird in Kürze automatisch neu gestartet.\n\nSpeichern Sie jetzt alle geöffneten Dokumente."
+display_string_restart_deadline_count_body="Sie haben die maximale Anzahl von ${display_string_deadline_count_maximum} mal verschoben.\n\nDieser Computer wird in Kürze automatisch neu gestartet.\n\nSpeichern Sie jetzt alle geöffneten Dokumente."
 display_string_restart_deadline_days_body="Sie haben die maximale Anzahl von ${deadline_days_hard} Tagen überschritten.\n\nDieser Computer wird in Kürze automatisch neu gestartet.\n\nSpeichern Sie jetzt alle offenen Dokumente."
 display_string_restart_deadline_date_body="Die Aufschiebungsfrist von ${display_string_deadline_date} ist abgelaufen.\n\nDieser Computer wird in Kürze automatisch neu gestartet.\n\nSpeichern Sie jetzt alle offenen Dokumente."
 
@@ -7198,7 +7198,7 @@ display_string_failed_body="Der ${display_string_workflow_title} konnte nicht ab
 display_string_insufficient_storage_title="Nicht genügend Speicherplatz für ${display_string_workflow_title}"
 display_string_insufficient_storage_timeout="Bitte entfernen Sie unnötige Elemente in"
 display_string_insufficient_storage_default_body="Ein erforderliches macOS-Update benötigt ${storage_required_gigabytes} GB Speicherplatz und nur ${storage_available_gigabytes} GB sind verfügbar.\n\nBitte verwenden Sie die Speichereinstellungen (hinter dieser Benachrichtigung angezeigt), um unnötige Elemente zu entfernen."
-display_string_insufficient_storage_deadline_count_body="Sie haben die maximale Anzahl von ${display_string_deadline_count_maximum} Malen verschoben.\n\nEin erforderliches macOS-Update benötigt ${storage_required_gigabytes} GB Speicherplatz und nur ${storage_available_gigabytes} GB sind verfügbar.\n\nBitte verwenden Sie die Speichereinstellungen (hinter dieser Benachrichtigung angezeigt), um unnötige Elemente zu entfernen."
+display_string_insufficient_storage_deadline_count_body="Sie haben die maximale Anzahl von ${display_string_deadline_count_maximum} mal verschoben.\n\nEin erforderliches macOS-Update benötigt ${storage_required_gigabytes} GB Speicherplatz und nur ${storage_available_gigabytes} GB sind verfügbar.\n\nBitte verwenden Sie die Speichereinstellungen (hinter dieser Benachrichtigung angezeigt), um unnötige Elemente zu entfernen."
 display_string_insufficient_storage_deadline_days_body="Sie haben die maximale Anzahl von ${deadline_days_hard} Tagen verschoben.\n\nEin erforderliches macOS-Update benötigt ${storage_required_gigabytes} GB Speicherplatz und nur ${storage_available_gigabytes} GB sind verfügbar.\n\nBitte verwenden Sie die Speichereinstellungen (hinter dieser Benachrichtigung angezeigt), um unnötige Elemente zu entfernen."
 display_string_insufficient_storage_deadline_date_body="Die Aufschiebungsfrist von ${display_string_deadline_date} ist verstrichen.\n\nEin erforderliches macOS-Update benötigt ${storage_required_gigabytes} GB Speicherplatz und nur ${storage_available_gigabytes} GB sind verfügbar.\n\nBitte verwenden Sie die Speichereinstellungen (hinter dieser Benachrichtigung angezeigt), um unnötige Elemente zu entfernen."
 
@@ -7207,7 +7207,7 @@ display_string_insufficient_storage_deadline_date_body="Die Aufschiebungsfrist v
 display_string_power_required_title="${display_string_workflow_title} benötigt Stromquelle"
 display_string_power_required_timeout="Bitte schließen Sie die Stromversorgung an"
 display_string_power_required_default_body="Sie müssen diesen Computer an eine Stromversorgung anschließen, um das erforderliche macOS-Update zu installieren."
-display_string_power_required_deadline_count_body="Sie haben die maximale Anzahl von ${display_string_deadline_count_maximum} Malen verschoben.\n\nSie müssen diesen Computer an eine Stromversorgung anschließen, um das erforderliche macOS-Update zu installieren."
+display_string_power_required_deadline_count_body="Sie haben die maximale Anzahl von ${display_string_deadline_count_maximum} mal verschoben.\n\nSie müssen diesen Computer an eine Stromversorgung anschließen, um das erforderliche macOS-Update zu installieren."
 display_string_power_required_deadline_days_body="Sie haben die maximale Anzahl von ${deadline_days_hard} Tagen überschritten.\n\nSie müssen diesen Computer an eine Stromversorgung anschließen, um das erforderliche macOS-Update zu installieren."
 display_string_power_required_deadline_date_body="Die Aufschiebungsfrist von ${display_string_deadline_date} ist abgelaufen.\n\nSie müssen diesen Computer an eine Stromversorgung anschließen, um das erforderliche macOS-Update zu installieren."
 
@@ -7223,7 +7223,7 @@ display_string_restart_or_defer_date_count_body="• Verschiebung möglich bis $
 # Sprache für dialog_soft_deadline(), ein interaktiver Dialog, wenn eine Soft-Deadline verstrichen ist, der dem Benutzer nur eine Schaltfläche bietet, um den Workflow fortzusetzen.
 display_string_soft_deadline_title="Neustart für ${display_string_workflow_title} erforderlich"
 display_string_soft_deadline_timeout="Automatischer Neustart in"
-display_string_soft_deadline_count_body="Sie haben die maximale Anzahl von ${display_string_deadline_count_maximum} Malen verschoben."
+display_string_soft_deadline_count_body="Sie haben die maximale Anzahl von ${display_string_deadline_count_maximum} mal verschoben."
 display_string_soft_deadline_days_body="Sie haben die maximale Anzahl von ${deadline_days_soft} Tagen verschoben."
 display_string_soft_deadline_date_body="Die Verschiebungsfrist ist verstrichen:\n${display_string_deadline_date}."
 
@@ -7231,14 +7231,14 @@ display_string_soft_deadline_date_body="Die Verschiebungsfrist ist verstrichen:\
 display_string_user_auth_title="${display_string_workflow_title} erfordert Authentifizierung"
 display_string_user_auth_timeout="Bitte geben Sie das Passwort in"
 display_string_user_auth_default_body="Sie müssen das Passwort für den Benutzer \"${current_user_real_name}\" eingeben, um das ${display_string_workflow_title} zu installieren.\n"
-display_string_user_auth_deadline_count_body="Sie haben die maximale Anzahl von ${display_string_deadline_count_maximum} Malen verschoben.\n\nSie müssen das Passwort für den Benutzer \"${current_user_real_name}\" eingeben, um das ${display_string_workflow_title} zu installieren.\n"
+display_string_user_auth_deadline_count_body="Sie haben die maximale Anzahl von ${display_string_deadline_count_maximum} mal verschoben.\n\nSie müssen das Passwort für den Benutzer \"${current_user_real_name}\" eingeben, um das ${display_string_workflow_title} zu installieren.\n"
 display_string_user_auth_deadline_days_soft_body="Sie haben die maximale Anzahl von ${deadline_days_soft} Tagen verschoben.\n\nSie müssen das Passwort für den Benutzer \"${current_user_real_name}\" eingeben, um das ${display_string_workflow_title} zu installieren.\n"
 display_string_user_auth_deadline_days_hard_body="Sie haben die maximale Anzahl von ${deadline_days_hard} Tagen überschritten.\n\nSie müssen das Passwort für den Benutzer \"${current_user_real_name}\" eingeben, um das ${display_string_workflow_title} zu installieren.\n"
 display_string_user_auth_deadline_date_body="Die Verschiebungsfrist von ${display_string_deadline_date} ist abgelaufen.\n\nSie müssen das Passwort für den Benutzer \"${current_user_real_name}\" eingeben, um das ${display_string_workflow_title} zu installieren.\n"
 display_string_user_auth_password_title="Passwort hier eingeben:"
 display_string_user_auth_password_placeholder="Passwort erforderlich"
 display_string_user_auth_retry_default_body="Sie müssen das Passwort für den Benutzer \"${current_user_real_name}\" eingeben, um das ${display_string_workflow_title} zu installieren.\n"
-display_string_user_auth_retry_deadline_count_body="Sie haben die maximale Anzahl von ${display_string_deadline_count_maximum} Malen verschoben.\n\nSie müssen das Passwort für den Benutzer \"${current_user_real_name}\" eingeben, um das ${display_string_workflow_title} zu installieren.\n"
+display_string_user_auth_retry_deadline_count_body="Sie haben die maximale Anzahl von ${display_string_deadline_count_maximum} mal verschoben.\n\nSie müssen das Passwort für den Benutzer \"${current_user_real_name}\" eingeben, um das ${display_string_workflow_title} zu installieren.\n"
 display_string_user_auth_retry_deadline_days_soft_body="Sie haben die maximale Anzahl von ${deadline_days_soft} Tagen verschoben.\n\nSie müssen das Passwort für den Benutzer \"${current_user_real_name}\" eingeben, um das ${display_string_workflow_title} zu installieren.\n"
 display_string_user_auth_retry_deadline_days_hard_body="Sie haben die maximale Anzahl von ${deadline_days_hard} Tagen überschritten.\n\nSie müssen das Passwort für den Benutzer \"${current_user_real_name}\" eingeben, um das ${display_string_workflow_title} zu installieren.\n"
 display_string_user_auth_retry_deadline_date_body="Die Verschiebungsfrist von ${display_string_deadline_date} ist abgelaufen.\n\nSie müssen das Passwort für den Benutzer \"${current_user_real_name}\" eingeben, um das ${display_string_workflow_title} zu installieren.\n"
